@@ -1,5 +1,6 @@
 import HornedBeast from './HornedBeast';
 import hornedBeast from './hornedBeast.json';
+
 function Gallery() {
     return (
         <>
