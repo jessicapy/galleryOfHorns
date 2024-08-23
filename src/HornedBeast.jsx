@@ -20,7 +20,7 @@ function HornedBeast(props) {
             <button onClick={reaccionClick}>fav - {clicks}</button>
             <p>mi edad {props.edad}</p> */}
 
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} onClick={}>
                 <Card.Img variant="top" src={props.imageUrl} style={{ width: '80px' }} alt={props.title} />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
